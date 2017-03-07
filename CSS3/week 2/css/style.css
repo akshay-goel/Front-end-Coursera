@@ -1,0 +1,40 @@
+
+h1{color:blue;  font-size: 250%;}
+
+
+body{
+    background-color: rgb(255,255,200);
+    margin: 2%
+}
+
+header{text-align: center; background:#88ffff;
+    padding: 2%
+}
+
+
+nav{font-size: 200%;font-variant: small-caps;font-family: "comic sans ms",cursive,sans-serif;color: #000000;}
+/* a{text-decoration: none} */
+
+
+h2{color:#ffffff;background: #886896}
+
+
+section{
+    display: inline-block;
+    width: 30%;
+    float: left;
+    margin-right: 2%;
+    background-color:rgb(255,200,255);
+}
+
+details{font-style: italic}
+
+
+summary{font-style: normal}
+
+footer{
+    text-align: center;background: #FFFFFF;
+    clear: both
+
+}
+img{ width:8%}

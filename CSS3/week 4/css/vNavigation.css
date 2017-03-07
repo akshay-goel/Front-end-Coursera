@@ -1,0 +1,43 @@
+nav{
+    box-sizing: border-box;
+/*    color:rgb(255,255,255);*/
+    background: rgba(0,0,0,0.8);
+    display: inline-block;
+    height: 99vh;
+    width: 25%;
+    border:2px solid rgb(0,0,0);
+    margin-right: 15px;
+    min-width: 40px;
+    min-height: 100px;
+    overflow: auto;
+}
+
+nav a{
+    background: rgba(0,0,0,0.8);
+    color:rgb(256,50,100);
+    display: block;
+    height:10vh;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    line-height: 5vh;
+    background: url('../imgs/arrow.png') no-repeat;
+    padding-left: 50px;
+	margin:10px 0 10px 5px;
+    border: 2px solid rgb(0,0,0);
+}
+nav a:hover
+{
+    background:rgba(0,0,0,0.4);
+/*    background: url('../imgs/arrow.png') no-repeat;*/
+/*    above line is commented as it does not work or makes everthing else don't work'*/
+    font-size:110%;
+    text-align: left;
+}
+
+section{
+	display: inline-block;
+	width:70%;
+	height:100vh;
+	overflow: auto;
+}

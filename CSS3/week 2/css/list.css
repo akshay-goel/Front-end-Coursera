@@ -1,0 +1,7 @@
+div{
+    display: inline-block;
+        width:48%
+}
+ol,ul{
+    list-style-image: url(../list.png)
+}
