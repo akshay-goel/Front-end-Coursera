@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+<!--       <script src="js/dom-modify.js"></script>-->
+       <link rel="stylesheet" href="css/dom-modify.css">
+        <meta charset="utf-8">
+        <title>Modify the DOM</title>
+        <!-- the following line inserts a image(icon/logo) in the title of the window -->
+        <link rel="icon" type="image/png" href="logo.png" />
+        <!-- above used image should be png or a icon image gif's and jpeg's don't work here -->
+    </head>
+    <body>
+       <h1>Modify the DOM</h1>
+		<button onclick="document.getElementById('stuff').innerHTML = 'Clicked First Button';">First</button>
+
+		<button onclick="document.getElementById('stuff').innerHTML = 'Clicked Second Button';">Second</button>
+        <p>This code shouldn't change.</p>
+        <p id="stuff">This will change.</p>
+        <p>This shouldn't change either.</p>
+        <button name="reset" onclick="document.getElementById('stuff').innerHTML = 'This will change';">Reset</button>
+    </body>
+</html>
