@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Working with Multimedia</title>
+        <!-- the following line inserts a image(icon/logo) in the title of the window -->
+        <link rel="icon" type="image/png" href="logo.png" />
+        <!-- above used image should be png or a icon image gif's and jpeg's don't work here -->
+    </head>
+    <body>
+        <h1>A video on gratitude</h1>
+        <video src="Gratitude.mp4" width="50%" controls>
+        Your browser does not support video element/html5.
+        </video>
+        <!-- THE REASON WHY CONTROLS,LOOP DOES NOT TAKE VALUE AS THEY MEAN SAME AS LOOP=TRUE-->
+        <h1>A audio from a Bolloygood song</h1>
+        <audio src="Bezubaan_Phir_Se_(ABCD_-_Any_Body_Can_Dance_2)(MyMp3Song.Com).mp3" controls loop>
+        Your browser does not support audio element/html5.
+        </audio>
+        <h1>A audio from a Bolloygood song starting from 100 seconds and playing upto 150 seconds.</h1>
+        <audio src="Bezubaan_Phir_Se_(ABCD_-_Any_Body_Can_Dance_2)(MyMp3Song.Com).mp3#t=100,150" controls  loop>
+        Your browser does not support audio element/html5.
+        </audio>
+        <h1>A audio from a Bolloygood song playing upto 50 seconds.</h1>
+        <audio src="Bezubaan_Phir_Se_(ABCD_-_Any_Body_Can_Dance_2)(MyMp3Song.Com).mp3#t=,50" controls  loop>
+        Your browser does not support audio element/html5.
+        </audio>
+        <h1>A audio from a Bolloygood song starting at 50 seconds.</h1>
+        <audio src="Bezubaan_Phir_Se_(ABCD_-_Any_Body_Can_Dance_2)(MyMp3Song.Com).mp3#t=00:50" controls  loop>
+        Your browser does not support audio element/html5.
+        </audio>
+    </body>
+</html>s

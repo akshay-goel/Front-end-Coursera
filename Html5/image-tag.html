@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Working with figure tag(image)</title>
+        <!-- the following line inserts a image(icon/logo) in the title of the window -->
+        <link rel="icon" type="image/png" href="logo.png" />
+        <!-- above used image should be png or a icon image gif's and jpeg's don't work here -->
+    </head>
+    <body>
+        <figure>
+            <img src="me.JPG" alt="me with my friends" title="time pass">
+            <figcaption>Default image size</figcaption>
+        </figure>
+        <figure>
+            <img src="me.JPG" width="500px" alt="me with my friends">
+            <figcaption>Set Image Width</figcaption>
+        </figure>
+        <figure>
+            <img src="me.JPG" width="500px" height="100px" alt="me with my friends">
+            <figcaption>Set Image width with skewed height</figcaption>
+        </figure>
+        <figure>
+            <img src="me.JPG" width="50%" alt="me with my friends" id="window">
+            <figcaption>Image relative to the size of window.</figcaption>
+        </figure>
+    </body>
+</html>
